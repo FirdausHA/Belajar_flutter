@@ -1,5 +1,8 @@
+import 'package:belajar_flutter/Home.dart';
+import 'package:belajar_flutter/Registrasi.dart';
 import 'package:flutter/material.dart';
-import './kalkulator.dart';
+import 'package:belajar_flutter/kalkulator.dart';
+import 'package:belajar_flutter/Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: kalkulator()
+      home: Home()
     );
   }
 }
